@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kado Birthday</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="gameboy">
+    <div class="screen">
+      <div id="content">Tekan panah kanan untuk baca mesej!</div>
+    </div>
+    <div class="controls">
+      <div class="arrow" onclick="showMessage()">→</div>
+      <div class="arrow" onclick="showImage()">↑</div>
+      <div class="arrow" onclick="showGame()">↓</div>
+    </div>
+  </div>
+  <audio autoplay loop>
+    <source src="lagu.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
